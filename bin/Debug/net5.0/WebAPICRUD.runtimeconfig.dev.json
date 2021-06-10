@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Relevo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Relevo\\.nuget\\packages"
+    ]
+  }
+}
