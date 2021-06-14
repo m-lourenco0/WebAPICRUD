@@ -15,35 +15,35 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="template.html">API Crud</a>
+            <a class="navbar-brand" href="index.html">API Crud</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="index.html">Usuários</a>
-                    <a class="nav-link" href="register.html">Cadastro</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Users</a>
+                    <a class="nav-link" href="register.html">Register</a>
                 </div>
             </div>
         </div>
     </nav>
 
     <div id="editForm" class="container-fluid bg-secondary text-white d-block">
-        <h3>Edit</h3>
+        <h3>Add User</h3>
         <div class="col-auto">
-            <form action="javascript:void(0);" onsubmit="updateUser()">
-                <input class="form-control" type="hidden" id="edit-id">
-                <input class="form-control " type="text" placeholder="Name" aria-label="default input example" id="edit-name">
-                <input type="email" class="form-control" id="edit-email" placeholder="Email - name@example.com">
-                <button type="submit" value="Save" class="btn btn-primary mb-3">Save</button>
-                <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+            <form action="javascript:void(0);" onsubmit="addUser()">
+                <label for="add-name" class="form-label">Name</label>
+                <input class="form-control " type="text" placeholder="Name" aria-label="default input example" id="add-name">
+                <label for="add-email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="add-email" placeholder="Email - name@example.com">
+                <p></p>
+                <button type="submit" value="Add" class="btn btn-primary mb-3">Save</button>
             </form>
         </div>
     </div>
 
     <script src="js/site.js" asp-append-version="true"></script>
     <script type="text/javascript">
-        getUsers();
     </script>
 </body>
 </html>

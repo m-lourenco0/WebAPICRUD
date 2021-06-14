@@ -29,7 +29,6 @@ function addUser() {
         })
         .then(response => response.json())
         .then(() => {
-            getUsers();
             addNameTextbox.value = '';
             addEmailTextbox.value = '';
         })
