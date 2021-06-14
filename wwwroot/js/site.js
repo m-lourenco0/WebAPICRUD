@@ -1,5 +1,5 @@
 ﻿const uri = '/api/Users';
-let todos = [];
+let users = [];
 
 function getUsers() {
     fetch(uri)
@@ -17,14 +17,16 @@ function addUser() {
         email: addEmailTextbox.value.trim()
     };
 
-    fetch(uri, {
-        method: 'POST',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(user)
-    })
+    fetch(uri,
+        {
+            method: 'POST',
+            headers:
+            {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(user)
+        })
         .then(response => response.json())
         .then(() => {
             getUsers();
@@ -35,9 +37,10 @@ function addUser() {
 }
 
 function deleteUser(id) {
-    fetch(`${uri}/${id}`, {
-        method: 'DELETE'
-    })
+    fetch(`${uri}/${id}`,
+        {
+            method: 'DELETE'
+        })
         .then(() => getUsers())
         .catch(error => console.error('Unable to delete user.', error));
 }
@@ -53,20 +56,23 @@ function displayEditForm(id) {
 
 function updateUser() {
     const userId = document.getElementById('edit-id').value;
-    const user = {
+    const user =
+    {
         id: parseInt(userId, 10),
         name: document.getElementById('edit-name').value.trim(),
         email: document.getElementById('edit-email').value.trim()
     };
 
-    fetch(`${uri}/${userId}`, {
-        method: 'PUT',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(user)
-    })
+    fetch(`${uri}/${userId}`,
+        {
+            method: 'PUT',
+            headers:
+            {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(user)
+        })
         .then(() => getUsers())
         .catch(error => console.error('Unable to update item.', error));
 
@@ -94,11 +100,6 @@ function _displayUsers(data) {
     const button = document.createElement('button');
 
     data.forEach(user => {
-        //let isCompleteCheckbox = document.createElement('input');
-        //isCompleteCheckbox.type = 'checkbox';
-        //isCompleteCheckbox.disabled = true;
-        //isCompleteCheckbox.checked = user.isComplete;
-
         let editButton = button.cloneNode(false);
         editButton.innerText = 'Edit';
         editButton.setAttribute('onclick', `displayEditForm(${user.id})`);

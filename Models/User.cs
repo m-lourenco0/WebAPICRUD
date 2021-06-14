@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace WebAPICRUD.Models
+﻿namespace WebAPICRUD.Models
 {
     public class User
     {
