@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ru4p4iy67cukdSODeEWG+JfXbHwjtZlODwSkNoJW11mSUkbr/VAzmGy7wX3xhbJLdWA4n2nMsTlSvcGLu6Ni7A==",
+  "dgSpecHash": "jHvrpngFLEcKxCQDegczmAN7EgBN0qfBVThz+v2Ti3XGifsgeUX7LeD9BRX9PGEkg6YRWNU/5zrkrQOgaWabTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Relevo\\Documents\\Projetos\\WebAPICrud\\WebAPICRUD.csproj",
+  "projectFilePath": "C:\\Users\\Relevo\\Documents\\Projetos\\LearnigC#\\WebAPICRUD\\WebAPICRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Relevo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Relevo\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
