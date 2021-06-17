@@ -32,6 +32,19 @@
     <div id="main" class="container-fluid bg-secondary text-white">
         <h3 class="page-header">User List</h3>
 
+        <div id="editForm" class="container-fluid bg-secondary text-white d-none">
+            <h3>Edit</h3>
+            <div class="col-auto">
+                <form action="javascript:void(0);" onsubmit="updateUser()">
+                    <input class="form-control" type="hidden" id="edit-id">
+                    <input class="form-control " type="text" placeholder="Name" aria-label="default input example" id="edit-name">
+                    <input type="email" class="form-control" id="edit-email" placeholder="Email - name@example.com">
+                    <button type="submit" value="Save" class="btn btn-primary mb-3">Save</button>
+                    <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+                </form>
+            </div>
+        </div>
+
         <p id="counter"></p>
 
         <table class="table table-dark table-striped">
@@ -50,18 +63,7 @@
         </table>
     </div>
 
-    <div id="editForm" class="container-fluid bg-secondary text-white d-none">
-        <h3>Edit</h3>
-        <div class="col-auto">
-            <form action="javascript:void(0);" onsubmit="updateUser()">
-                <input class="form-control" type="hidden" id="edit-id">
-                <input class="form-control " type="text" placeholder="Name" aria-label="default input example" id="edit-name">
-                <input type="email" class="form-control" id="edit-email" placeholder="Email - name@example.com">
-                <button type="submit" value="Save" class="btn btn-primary mb-3">Save</button>
-                <a onclick="closeInput()" aria-label="Close">&#10006;</a>
-            </form>
-        </div>
-    </div>
+    
 
     <script src="js/site.js" asp-append-version="true"></script>
     <script type="text/javascript">

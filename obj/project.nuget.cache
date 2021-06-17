@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jHvrpngFLEcKxCQDegczmAN7EgBN0qfBVThz+v2Ti3XGifsgeUX7LeD9BRX9PGEkg6YRWNU/5zrkrQOgaWabTw==",
+  "dgSpecHash": "O5KcMDixpYsX1aPc4XlX9Kmr59KqM6HOGMdOa4be1V1o0RQuU5ZL5OjJ7GAlFUfmvF5MWlEnFjFcroTZ7FejzQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Relevo\\Documents\\Projetos\\LearnigC#\\WebAPICRUD\\WebAPICRUD.csproj",
   "expectedPackageFiles": [
@@ -23,7 +23,6 @@
     "C:\\Users\\Relevo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",
     "C:\\Users\\Relevo\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.7\\microsoft.entityframeworkcore.analyzers.5.0.7.nupkg.sha512",
     "C:\\Users\\Relevo\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.7\\microsoft.entityframeworkcore.design.5.0.7.nupkg.sha512",
-    "C:\\Users\\Relevo\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.7\\microsoft.entityframeworkcore.inmemory.5.0.7.nupkg.sha512",
     "C:\\Users\\Relevo\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.7\\microsoft.entityframeworkcore.relational.5.0.7.nupkg.sha512",
     "C:\\Users\\Relevo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.7\\microsoft.entityframeworkcore.sqlserver.5.0.7.nupkg.sha512",
     "C:\\Users\\Relevo\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.7\\microsoft.entityframeworkcore.tools.5.0.7.nupkg.sha512",
