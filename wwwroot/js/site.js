@@ -29,7 +29,6 @@ function addUser() {
         })
         .then(response => response.json())
         .then(() => {
-            getUsers();
             addNameTextbox.value = '';
             addEmailTextbox.value = '';
         })
@@ -51,7 +50,7 @@ function displayEditForm(id) {
     document.getElementById('edit-name').value = user.name;
     document.getElementById('edit-id').value = user.id;
     document.getElementById('edit-email').value = user.email;
-    document.getElementById('editForm').style.display = 'block';
+    document.getElementById('editForm').setAttribute('class', `container-fluid bg-secondary text-white d-block`);
 }
 
 function updateUser() {
@@ -82,7 +81,7 @@ function updateUser() {
 }
 
 function closeInput() {
-    document.getElementById('editForm').style.display = 'none';
+    document.getElementById('editForm').setAttribute('class', `container-fluid bg-secondary text-white d-none`);
 }
 
 function _displayCount(userCount) {
@@ -103,10 +102,12 @@ function _displayUsers(data) {
         let editButton = button.cloneNode(false);
         editButton.innerText = 'Edit';
         editButton.setAttribute('onclick', `displayEditForm(${user.id})`);
+        editButton.setAttribute('class', `btn btn-outline-primary`);
 
         let deleteButton = button.cloneNode(false);
         deleteButton.innerText = 'Delete';
         deleteButton.setAttribute('onclick', `deleteUser(${user.id})`);
+        deleteButton.setAttribute('class', `btn btn-outline-danger`);
 
         let tr = tBody.insertRow();
 

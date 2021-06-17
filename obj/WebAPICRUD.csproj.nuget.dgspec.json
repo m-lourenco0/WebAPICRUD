@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Relevo\\Documents\\Projetos\\WebAPICrud\\WebAPICRUD.csproj": {}
+    "C:\\Users\\Relevo\\Documents\\Projetos\\LearnigC#\\WebAPICRUD\\WebAPICRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Relevo\\Documents\\Projetos\\WebAPICrud\\WebAPICRUD.csproj": {
+    "C:\\Users\\Relevo\\Documents\\Projetos\\LearnigC#\\WebAPICRUD\\WebAPICRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Relevo\\Documents\\Projetos\\WebAPICrud\\WebAPICRUD.csproj",
+        "projectUniqueName": "C:\\Users\\Relevo\\Documents\\Projetos\\LearnigC#\\WebAPICRUD\\WebAPICRUD.csproj",
         "projectName": "WebAPICRUD",
-        "projectPath": "C:\\Users\\Relevo\\Documents\\Projetos\\WebAPICrud\\WebAPICRUD.csproj",
+        "projectPath": "C:\\Users\\Relevo\\Documents\\Projetos\\LearnigC#\\WebAPICRUD\\WebAPICRUD.csproj",
         "packagesPath": "C:\\Users\\Relevo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Relevo\\Documents\\Projetos\\WebAPICrud\\obj\\",
+        "outputPath": "C:\\Users\\Relevo\\Documents\\Projetos\\LearnigC#\\WebAPICRUD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Relevo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,19 +40,15 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[5.0.7, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -60,7 +56,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.1.4, )"
             }
           },
           "imports": [
